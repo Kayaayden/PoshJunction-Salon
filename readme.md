@@ -1,31 +1,51 @@
-# Simple Tailwind CSS Starter
+# PoshJunction Website
 
-This is an extremley simple setup to develop Tailwind projects. This will be used in my Tailwind From Scratch course.
+## Overview
 
-## Usage
+Posh Junction is a premier salon in Kampala, offering top-tier hair, beauty, and wellness services. This website serves as a digital presence for the salon, showcasing its services, portfolio, and exclusive offers.
 
-Install dependencies
+## Features
 
-```
-npm install
-```
+Home Page – Engaging hero section with a call-to-action.
 
-Run Tailwind CLI in watch mode
+About Us – Introduction to the salon and its philosophy.
 
-```
-npm run dev
-```
+Services – Detailed list of available treatments and styling options.
 
-You can use tailwind classes in any .html files in the root directory
+Our Work – A portfolio section highlighting past transformations.
 
-Put any custom CSS that you may have in the **src/input.css** file
+Offers – Special promotions and discounts.
 
-Add any config values to the **tailwind.config.js** file
+Contact – Location, email, and phone details for easy appointment booking.
 
-To build once, run
+## Technologies Used
 
-```
-npm run build
-```
+HTML5 – Structure and content
+CSS3 – Styling and layout
+JavaScript – Interactive elements
+Tailwind – Responsive design
 
-You only need to deploy your html files and css/style.css
+## Setup Instructions
+
+Clone the repository:
+
+git clone https://github.com/Kayaayden/PoshJunction-Salon.git
+
+Navigate to the project directory:
+
+cd PoshJunction-Website
+Open index.html in a browser to view the site.
+
+## Contributing
+
+This project is a portfolio piece and a client project. Contributions are not currently open, but feedback is welcome!
+
+## License
+
+This project is for demonstration purposes only and is not licensed for commercial use.
+
+Contact
+For inquiries, reach out via:
+
+Email: kayaayden@gmail.com
+GitHub: kayaayden
