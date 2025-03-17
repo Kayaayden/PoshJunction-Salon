@@ -1,0 +1,117 @@
+------------------
+LINKS
+------------------
+Home
+About Us
+Services
+Our Work
+Offers
+Contact
+
+------------------
+HERO
+------------------
+Title: Elevate Your Style at Posh Junction
+Subtitle: Experience luxury, precision, and care at Kampala’s premier salon.
+Btn text: Book an Appointment
+
+------------------
+STEPS
+------------------
+Title 1: Consultation & Styling Advice
+Title 2: Premium Hair & Beauty Treatments
+Title 3: The Perfect Look & Care Routine
+
+Subtitle x3: Our experts provide tailored solutions for hair, beauty, and wellness, ensuring you leave feeling confident and refreshed.
+Btn text: Learn More
+
+------------------
+ABOUT
+------------------
+Title: Transforming Beauty, One Style at a Time
+Subtitle: At Posh Junction, we are passionate about creating stunning looks with personalized care. Our team of professionals ensures every visit is a luxurious experience tailored to your beauty needs.
+
+
+------------------
+SERVICES
+------------------
+Title: Our Signature Services
+
+Hair Styling & Treatment
+
+Manicures & Pedicures
+
+Makeup & Bridal Services
+
+Facials & Skincare Treatments
+
+Massage Therapy
+
+
+------------------
+TESTIMONIALS
+------------------
+Title: What Our Clients Say
+
+Nattasha Mith
+"Posh Junction exceeded my expectations! The service was top-notch, and I left feeling brand new."
+
+Jessica White
+"My hair has never looked better! The stylists here truly understand their craft."
+
+Mike Davis
+"Great ambiance and exceptional service. I highly recommend their grooming services."
+
+Olivia Wilson
+"A true luxury experience. From nails to hair, everything was perfect!"
+
+------------------
+OFFERS
+------------------
+Title: Exclusive Deals & Promotions
+
+Offer 1: 20% off first-time clients
+Offer 2: Bridal Package Discounts
+Offer 3: Refer a friend & get a free treatment
+
+
+------------------
+CONTACT
+------------------
+Title: Visit or Reach Out to Us
+Subtitle: Book an appointment or walk in for a premium salon experience.
+
+Address: Kampala, Uganda
+Email: info@poshjunction.com
+Phone: +256 700 123 456
+
+------------------
+FOOTER
+------------------
+Logo
+Subtitle: Luxury. Precision. Care. Posh Junction is where beauty meets elegance.
+Socials: Facebook | Instagram | Twitter
+
+Pages
+Home
+About Us
+Services
+Our Work
+Offers
+Contact
+
+Services
+Kitchen
+Living Area
+Bathroom
+Bedroom
+
+Contact
+55 East Birchwood Ave. Brooklyn, New York 11201
+contact@interno.com
+(123) 456 - 7890
+
+------------------
+COPYRIGHT
+------------------
+Copyright © Posh Junction 2024. All rights reserved.

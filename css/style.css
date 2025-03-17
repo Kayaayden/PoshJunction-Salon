@@ -636,6 +636,10 @@ video {
   z-index: 30;
 }
 
+.order-2 {
+  order: 2;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -681,12 +685,28 @@ video {
   height: 100%;
 }
 
+.h-\[93px\] {
+  height: 93px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
 .min-h-\[400px\] {
   min-height: 400px;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[93px\] {
+  width: 93px;
+}
+
+.w-\[80px\] {
+  width: 80px;
 }
 
 .max-w-\[400px\] {
@@ -741,6 +761,10 @@ video {
   gap: 1.5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -755,6 +779,18 @@ video {
 
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .border {
@@ -782,9 +818,32 @@ video {
   background-color: rgb(0 0 0 / 0.5);
 }
 
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity, 1));
+}
+
+.bg-accent\/15 {
+  background-color: rgb(0 163 176 / 0.15);
+}
+
+.bg-accent {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 163 176 / var(--tw-bg-opacity, 1));
+}
+
+.bg-accent\/10 {
+  background-color: rgb(0 163 176 / 0.1);
 }
 
 .bg-hero {
@@ -807,6 +866,11 @@ video {
   background-repeat: no-repeat;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-0 {
   padding: 0px;
 }
@@ -826,6 +890,10 @@ video {
 
 .pt-\[88px\] {
   padding-top: 88px;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -890,6 +958,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-accent {
+  --tw-text-opacity: 1;
+  color: rgb(0 163 176 / var(--tw-text-opacity, 1));
 }
 
 .shadow-xl {
@@ -1073,8 +1146,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @media (min-width: 1200px) {
+  .xl\:order-none {
+    order: 0;
+  }
+
   .xl\:h-\[840px\] {
     height: 840px;
+  }
+
+  .xl\:max-w-\[410px\] {
+    max-width: 410px;
   }
 
   .xl\:flex-row {
@@ -1083,6 +1164,22 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:items-start {
     align-items: flex-start;
+  }
+
+  .xl\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .xl\:gap-\[74px\] {
+    gap: 74px;
+  }
+
+  .xl\:gap-\[64px\] {
+    gap: 64px;
+  }
+
+  .xl\:gap-\[54px\] {
+    gap: 54px;
   }
 
   .xl\:rounded-b-\[100px\] {
@@ -1100,6 +1197,11 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:bg-repeat-y {
     background-repeat: repeat-y;
+  }
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .xl\:text-left {
