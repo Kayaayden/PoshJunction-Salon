@@ -681,20 +681,8 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.max-h-screen {
-  max-height: 100vh;
-}
-
 .min-h-\[400px\] {
   min-height: 400px;
-}
-
-.min-h-full {
-  min-height: 100%;
 }
 
 .w-full {
@@ -777,17 +765,12 @@ video {
   border-top-width: 1px;
 }
 
-.border-primary\/20 {
-  border-color: rgb(41 47 54 / 0.2);
-}
-
 .border-primary\/10 {
   border-color: rgb(41 47 54 / 0.1);
 }
 
-.bg-accent-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(180 205 214 / var(--tw-bg-opacity, 1));
+.bg-accent-secondary\/10 {
+  background-color: rgb(180 205 214 / 0.1);
 }
 
 .bg-black {
@@ -802,10 +785,6 @@ video {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
-}
-
-.bg-accent-secondary\/10 {
-  background-color: rgb(180 205 214 / 0.1);
 }
 
 .bg-hero {
@@ -853,6 +832,11 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -869,11 +853,6 @@ video {
 
 .text-\[18px\] {
   font-size: 18px;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-medium {

@@ -10,184 +10,242 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- ICONS  -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css"
+    />
 
-     <!-- Swiper CSS  -->
-     <link rel="stylesheet" href="src/swiper-bundle.min.css">
+    <!-- Swiper CSS  -->
+    <link rel="stylesheet" href="src/swiper-bundle.min.css" />
   </head>
   <body class="bg-gray-100">
-<!-- Header -->
- <header class="sticky top-0 bg-black shadow-xl h-[90px] z-30">
-  <div class="container mx-auto flex justify-between h-full items-center">
-    <!-- Logo -->
-     <a href="#"><img src="assets/Logo-black.svg" alt="" class="h-16"></a>
+    <!-- Header -->
+    <header class="sticky top-0 bg-black shadow-xl h-[90px] z-30">
+      <div class="container mx-auto flex justify-between h-full items-center">
+        <!-- Logo -->
+        <a href="#"><img src="assets/Logo-black.svg" alt="" class="h-16" /></a>
 
-    <!-- nav -->
-     <nav>
-      <!-- nav mobile trigger -->
-       <div class="lg:hidden cursor-pointer" id="new-trigger-btn">
-        <i class="ri-more-2-fill text-4xl text-accent-secondary"></i>
-       </div>
-
-
-      <ul id="nav-menu" class="fixed w-full h-0 p-0 bg-black overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col lg:flex-row gap-5 lg:relative lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300 text-gray-50">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Our Work</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-     </nav>
-  </div>
- </header>
-
-<!-- Page Wrapper -->
- <main class="mx-auto overflow-hidden w-full">
-   <!-- grid img -->
-    <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"> 
-    </div>
-    
-    
-    <!-- Hero section -->
-    <section class="hero h-[700px] xl:h-[840px] bg-hero bg-center bg-cover bg-no-repeat bg-fixed xl:rounded-b-[100px] relative z-20">
-      <!-- overlay -->
-       <div class="absolute inset-0 xl:rounded-b-[100px] bg-black/50"></div>
-
-
-       <div class="container mx-auto h-full flex items-center justify-center relative z-10">
-         <!-- text -->
-          <div class="hero__text max-w-[400px] lg:max-w-[567px] flex flex-col items-center text-center">
-           <h1 class="h1 text-gray-100 mb-8 xl:leading-tight">Elevate your style & Confidence</h1>
-           <p class="text-white mb-8">Experience luxury hair and beauty treatments in a serene and professional setting at Kampala’s premier salon. Let us transform your look with expert care.</p>
-           <button class="uppercase btn btn-primary mx-auto font-medium">Book today <i class="ri-arrow-right-line text-3xl text-gray-200"></i></button>
-
-   
+        <!-- nav -->
+        <nav>
+          <!-- nav mobile trigger -->
+          <div class="lg:hidden cursor-pointer" id="new-trigger-btn">
+            <i class="ri-more-2-fill text-4xl text-accent-secondary"></i>
           </div>
-       </div>
 
-     </section>
-
-    <!-- offers section-->
-     <section class="offer sect_large">
-      <div class="container offer__bg mx-auto bg-accent-secondary/10 rounded-[70px] px-6">
-        <div class="flex flex-col items-center pt-[88px] pb-[110px]"> 
-
-          <!-- offer tittle -->
-          <h2 class="offer__title h2 mb-9 text-center ">Exclusive Deals & Promotions</h2>
-          
-          <!-- offer Sliders  -->
-           <div class="w-full">
-            <div class="offer__slider swiper min-h-[400px]">
-              <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide">
-                  <!-- Items -->
-                   <div class="flex flex-col xl:flex-row gap-6 text-center xl:text-left justify-between border p-5 rounded-[20px] border-primary/10 max-w-[550px] mx-auto"> 
-                     
-                     <!-- img -->
-                     <div class=" flex-1 "><img src="assets/Offers/Screenshot 2025-02-24 at 17.36.41.png" alt="" class="rounded-sm" ></div>
-  
-                     <!-- Text  -->
-                      <div class=" flex-1 max-w-xl flex flex-col gap-4 items-center justify-center xl:items-start">
-                        <h3 class="h3 leading-tight">20% off <br> Women's Day Weekend.</h3>
-                        <p class="text-[18px]">10% OFF ALL OUR FACIALS. This Friday - Sunday.
-                          </p>
-                        <button class="btn_small btn-primary text-[16px]">Book today <i class="ri-arrow-right-line text-2xl text-white"></i></button>  
-                      </div>
-                   </div>
-                  
-                </div>
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                  <!-- Items -->
-                   <div class="flex flex-col xl:flex-row gap-6 text-center xl:text-left justify-between border p-5 rounded-[20px] border-primary/10 max-w-[550px] mx-auto"> 
-                     
-                     <!-- img -->
-                     <div class=" flex-1 "><img src="assets/Offers/Screenshot 2025-02-24 at 17.36.41.png" alt="" class="rounded-sm" ></div>
-  
-                     <!-- Text  -->
-                      <div class=" flex-1 max-w-xl flex flex-col gap-4 items-center justify-center xl:items-start">
-                        <h3 class="h3 leading-tight">Bridal Package Discounts.</h3>
-                        <p class="text-[18px]">10% OFF ALL OUR FACIALS. This Friday - Sunday.
-                          </p>
-                        <button class="btn_small btn-primary text-[16px]">Book today <i class="ri-arrow-right-line text-2xl text-white"></i></button>  
-                      </div>
-                   </div>
-                  
-                </div>
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                  <!-- Items -->
-                   <div class="flex flex-col xl:flex-row gap-6 text-center xl:text-left justify-between border p-5 rounded-[20px] border-primary/10 max-w-[550px] mx-auto"> 
-                     
-                     <!-- img -->
-                     <div class=" flex-1 "><img src="assets/Offers/Screenshot 2025-02-24 at 17.36.41.png" alt="" class="rounded-sm" ></div>
-  
-                     <!-- Text  -->
-                      <div class=" flex-1 max-w-xl flex flex-col gap-4 items-center justify-center xl:items-start">
-                        <h3 class="h3 leading-tight"> Refer a friend & get a free treatment</h3>
-                        <p class="text-[18px]">10% OFF ALL OUR FACIALS. This Friday - Sunday.
-                          </p>
-                        <button class="btn_small btn-primary text-[16px]">Book today <i class="ri-arrow-right-line text-2xl text-white"></i></button>  
-                      </div>
-                   </div>
-                  
-                </div>
-              </div>
-
-              <!-- swiper pagination -->
-               <div class="swiper-pagination"></div>
-
-            </div>
-           </div>
-
-
-        </div>
-
-
+          <ul
+            id="nav-menu"
+            class="fixed w-full h-0 p-0 bg-black overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col lg:flex-row gap-5 lg:relative lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300 text-gray-50"
+          >
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Work</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
+    </header>
 
-     </section>
+    <!-- Page Wrapper -->
+    <main class="mx-auto overflow-hidden w-full">
+      <!-- grid img -->
+      <div
+        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"
+      ></div>
 
-    <!-- about section-->
-     <section class="about"></section>
-     
-     <!-- Our works section-->
+      <!-- Hero section -->
+      <section
+        class="hero h-[700px] xl:h-[840px] bg-hero bg-center bg-cover bg-no-repeat bg-fixed xl:rounded-b-[100px] relative z-20"
+      >
+        <!-- overlay -->
+        <div class="absolute inset-0 xl:rounded-b-[100px] bg-black/50"></div>
+
+        <div
+          class="container mx-auto h-full flex items-center justify-center relative z-10"
+        >
+          <!-- text -->
+          <div
+            class="hero__text max-w-[400px] lg:max-w-[567px] flex flex-col items-center text-center"
+          >
+            <h1 class="h1 text-gray-100 mb-8 xl:leading-tight">
+              Elevate your style & Confidence
+            </h1>
+            <p class="text-white mb-8">
+              Experience luxury hair and beauty treatments in a serene and
+              professional setting at Kampala’s premier salon. Let us transform
+              your look with expert care.
+            </p>
+            <button class="uppercase btn btn-primary mx-auto font-medium">
+              Book today
+              <i class="ri-arrow-right-line text-3xl text-gray-200"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- offers section-->
+      <section class="offer sect_small">
+        <div
+          class="container offer__bg mx-auto bg-accent-secondary/10 rounded-[70px] px-6"
+        >
+          <div class="flex flex-col items-center pt-[88px] pb-[110px]">
+            <!-- offer tittle -->
+            <h2 class="offer__title h2 mb-9 text-center">
+              Exclusive Deals & Promotions
+            </h2>
+
+            <!-- offer Sliders  -->
+            <div class="w-full">
+              <div class="offer__slider swiper min-h-[400px]">
+                <div class="swiper-wrapper">
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <!-- Items -->
+                    <div
+                      class="flex flex-col xl:flex-row gap-6 text-center xl:text-left justify-between border p-5 rounded-[20px] border-primary/10 max-w-[550px] mx-auto"
+                    >
+                      <!-- img -->
+                      <div class="flex-1">
+                        <img
+                          src="assets/Offers/Screenshot 2025-02-24 at 17.36.41.png"
+                          alt=""
+                          class="rounded-sm"
+                        />
+                      </div>
+
+                      <!-- Text  -->
+                      <div
+                        class="flex-1 max-w-xl flex flex-col gap-4 items-center justify-center xl:items-start"
+                      >
+                        <h3 class="h3 leading-tight">
+                          20% off <br />
+                          Women's Day Weekend.
+                        </h3>
+                        <p class="text-[18px]">
+                          10% OFF ALL OUR FACIALS. This Friday - Sunday.
+                        </p>
+                        <button class="btn_small btn-primary text-[16px]">
+                          Book today
+                          <i
+                            class="ri-arrow-right-line text-2xl text-white"
+                          ></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide">
+                    <!-- Items -->
+                    <div
+                      class="flex flex-col xl:flex-row gap-6 text-center xl:text-left justify-between border p-5 rounded-[20px] border-primary/10 max-w-[550px] mx-auto"
+                    >
+                      <!-- img -->
+                      <div class="flex-1">
+                        <img
+                          src="assets/Offers/Screenshot 2025-02-24 at 17.36.41.png"
+                          alt=""
+                          class="rounded-sm"
+                        />
+                      </div>
+
+                      <!-- Text  -->
+                      <div
+                        class="flex-1 max-w-xl flex flex-col gap-4 items-center justify-center xl:items-start"
+                      >
+                        <h3 class="h3 leading-tight">
+                          Bridal Package Discounts.
+                        </h3>
+                        <p class="text-[18px]">
+                          10% OFF ALL OUR FACIALS. This Friday - Sunday.
+                        </p>
+                        <button class="btn_small btn-primary text-[16px]">
+                          Book today
+                          <i
+                            class="ri-arrow-right-line text-2xl text-white"
+                          ></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="swiper-slide">
+                    <!-- Items -->
+                    <div
+                      class="flex flex-col xl:flex-row gap-6 text-center xl:text-left justify-between border p-5 rounded-[20px] border-primary/10 max-w-[550px] mx-auto"
+                    >
+                      <!-- img -->
+                      <div class="flex-1">
+                        <img
+                          src="assets/Offers/Screenshot 2025-02-24 at 17.36.41.png"
+                          alt=""
+                          class="rounded-sm"
+                        />
+                      </div>
+
+                      <!-- Text  -->
+                      <div
+                        class="flex-1 max-w-xl flex flex-col gap-4 items-center justify-center xl:items-start"
+                      >
+                        <h3 class="h3 leading-tight">
+                          Refer a friend & get a free treatment
+                        </h3>
+                        <p class="text-[18px]">
+                          10% OFF ALL OUR FACIALS. This Friday - Sunday.
+                        </p>
+                        <button class="btn_small btn-primary text-[16px]">
+                          Book today
+                          <i
+                            class="ri-arrow-right-line text-2xl text-white"
+                          ></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- swiper pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section-->
+      <section class="about"></section>
+
+      <!-- Our works section-->
       <section class="works"></section>
 
-    <!-- our services section-->
-     <section class="service"></section>
+      <!-- our services section-->
+      <section class="service"></section>
 
-    <!-- book appointment Section -->
-     <section class="book"></section>
+      <!-- book appointment Section -->
+      <section class="book"></section>
 
-    <!-- Follow us on Social/Instagram -->
-     <section class="follow"></section>
+      <!-- Follow us on Social/Instagram -->
+      <section class="follow"></section>
 
-    <!-- Footer section -->
-     <footer class="footer"></footer>
+      <!-- Footer section -->
+      <footer class="footer"></footer>
 
-  
-
-
-  <!-- temporary div -->
-  <div class="h-[3000px]"></div>
- </main>
-
- 
-
+      <!-- temporary div -->
+      <div class="h-[3000px]"></div>
+    </main>
 
     <!-- Scroll Reveal js  -->
     <script src="js/scrollreveal.min.js"></script>
     <!-- Swiper bundles  -->
     <script src="js/swiper-bundle.min.js"></script>
     <!-- main js  -->
-     <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
