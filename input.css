@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    @apply font-secondary font-light text-[22px] text-secondary;
+}
+
+a{
+    @apply text-[20px] hover:text-accent transition-all duration-300;
+}
+
+h1,h2,h3,h4,h5,h6{
+    @apply font-primary font-bold text-primary;
+}
+
+.h1 {
+    @apply text-[64px] lg:text-[84px] leading-none;
+}
+
+.h2{
+    @apply text-[50px] leading-tight;
+}
+
+.h3{
+    @apply text-[25px];
+}
+
+.btn {
+    @apply h-[50px] px-[50px] transition-all duration-300 text-white rounded-[18px] flex items-center gap-2;
+}
+
+.btn_small{
+    @apply h-[25px] px-[35px] text-[18px] font-medium transition-all duration-300 text-white rounded-[5px] flex items-center gap-2;
+}
+
+.btn-primary{
+    @apply bg-accent hover:bg-accent-hover;
+}
+
+.btn-accent{
+    @apply bg-gray-200 hover:bg-accent-secondary text-primary;
+}
+
+.nav-is-open{
+    @apply h-[350px] p-8;
+}
+
+.sect_large{
+    @apply mt-[80px] xl:mt-[200px] relative z-20;
+}
+.sect_small{
+    @apply mt-[80px] xl:mt-[150px] relative z-20;
+}
